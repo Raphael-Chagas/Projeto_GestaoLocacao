@@ -30,12 +30,12 @@ public class Carro {
         this.dataCadastro = dataCadastro;
     }
 
-    public Veiculo(String placa, String marca, String modelo, String categoria) {
+    public Carro(String placa, String marca, String modelo, String categoria) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
         this.categoria = categoria;
-        this.quilometragem = 0;
+        this.quilometragem = "0";
         this.status = "DISPONIVEL";
         this.dataCadastro = LocalDateTime.now();
     }
